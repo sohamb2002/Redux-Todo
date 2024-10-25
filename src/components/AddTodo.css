@@ -1,0 +1,63 @@
+/* AddTodo.css */
+
+.add-todo-container {
+    background: linear-gradient(135deg, #72edf2, #5151e5);
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .add-todo-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .add-todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .todo-input {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .todo-input:focus {
+    transform: scale(1.02);
+    box-shadow: 0 5px 20px rgba(81, 81, 229, 0.4);
+  }
+  
+  .todo-button {
+    background: #fff;
+    color: #5151e5;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todo-button:hover {
+    background: #5151e5;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(81, 81, 229, 0.4);
+  }
+  
+  
